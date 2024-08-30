@@ -31,8 +31,8 @@ public class Mover : MonoBehaviour
 
         // 1, 2, 3번을 통해 총알을 교체해주는 if문
         if (Input.GetKeyDown(KeyCode.Alpha1)) { SwapBullet(0); }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { SwapBullet(1); }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { SwapBullet(2); }
+        else if (Input.GetKeyDown(KeyCode.Alpha2)) { SwapBullet(1); }
+        else if (Input.GetKeyDown(KeyCode.Alpha3)) { SwapBullet(2); }
     }
 
 
