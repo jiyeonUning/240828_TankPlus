@@ -208,7 +208,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tank Shooter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 213896633315177048, guid: 0381a2fe5edab564684c2b811ee29114, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0381a2fe5edab564684c2b811ee29114, type: 3}
 --- !u!1 &1271670575
 GameObject:
